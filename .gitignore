@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/
+.env
+.pnpmrc.json
+*.log
+.codebuddy/
+.genie/
+.templates/
