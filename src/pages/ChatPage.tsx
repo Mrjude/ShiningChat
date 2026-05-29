@@ -104,10 +104,10 @@ export function ChatPage({
                 S
               </div>
               <h2 className="text-2xl font-semibold mb-2" style={{ color: 'var(--td-text-color-primary)' }}>
-                Shining 智能客服
+                ShiningChat
               </h2>
               <p style={{ color: 'var(--td-text-color-secondary)' }}>
-                您好，我是Shining智能客服，有任何问题都可以问我
+                您好，我是ShiningChat，有任何问题都可以问我
               </p>
             </div>
 

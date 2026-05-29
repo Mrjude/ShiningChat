@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Routes, Route, useNavigate, useParams, useLocation } from 'react-router-dom';
-import '@tdesign-react/chat/es/style/index.js';
+import '@tdesign-react/chat/es/style';
 
 import { useAgents } from './hooks/useAgents';
 import { useTheme } from './hooks/useTheme';

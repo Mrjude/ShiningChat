@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { APP_CONFIG } from './config';
-import 'tdesign-react/esm/style/index.js';
+import 'tdesign-react/esm/style';
 import './index.css';
 
 // 设置页面标题

@@ -59,7 +59,7 @@ function buildCustomerServicePrompt(userMessage: string): string {
     ? relatedFaq.map(f => `Q: ${f.question}\nA: ${f.answer}`).join('\n\n')
     : '暂无匹配的FAQ';
 
-  return `你是"Shining"智能客服助手，负责为用户提供专业、友好的客户服务。
+  return `你是"ShiningChat"智能客服助手，负责为用户提供专业、友好的客户服务。
 
 ## 你的核心能力
 1. **FAQ知识库检索**：根据用户问题匹配FAQ答案
@@ -612,7 +612,7 @@ app.listen(PORT, () => {
   console.log(`
 ╔════════════════════════════════════════════════╗
 ║                                                ║
-║     Shining 智能客服服务器已启动                  ║
+║     ShiningChat 服务器已启动                  ║
 ║                                                ║
 ║     地址: http://localhost:${PORT}                ║
 ║     数据库: SQLite (data/chat.db)              ║

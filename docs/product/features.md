@@ -1,4 +1,4 @@
-# Shining 智能客服 - 功能特性
+# ShiningChat - 功能特性
 
 ## 核心功能
 

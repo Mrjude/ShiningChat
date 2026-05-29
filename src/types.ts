@@ -1,5 +1,5 @@
 /**
- * 类型定义 - Shining 智能客服
+ * 类型定义 - ShiningChat
  */
 
 export type PermissionMode = 'default' | 'acceptEdits' | 'plan' | 'bypassPermissions';
