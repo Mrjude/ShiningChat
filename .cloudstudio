@@ -1,0 +1,14 @@
+[services.frontend]
+name = "frontend"
+cmd = "npx vite --host 0.0.0.0 --port 5173"
+port = 5173
+
+[services.backend]
+name = "backend"
+cmd = "npx tsx watch server/index.ts"
+port = 3000
+
+[services.docker]
+name = "docker"
+cmd = "echo 'docker service placeholder'"
+port = 0
